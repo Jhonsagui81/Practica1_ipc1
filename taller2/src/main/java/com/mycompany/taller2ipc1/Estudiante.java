@@ -5,12 +5,12 @@ package com.mycompany.taller2ipc1;
 public class Estudiante extends Persona {
     private int carnet;
     private String carrera;
-    Cursos[] curso = new Cursos[2];
+    Cursos[] curso = new Cursos[2];  //Arreglo de objetos de otra clase
 
-    public Estudiante() {
-        carnet = 0;
-        carrera = "";
-        for (int i = 0; i < curso.length; i++) {
+    public Estudiante() { 
+        carnet = 0;//inicializador
+        carrera = ""; //inicializador 
+        for (int i = 0; i < curso.length; i++) {  //instancia de todos los objetos cursos
             curso[i] = new Cursos();
         }
     }

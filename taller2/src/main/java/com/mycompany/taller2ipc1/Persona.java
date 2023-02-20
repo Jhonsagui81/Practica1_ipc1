@@ -7,9 +7,7 @@ public class Persona {
     private int edad;
     private int cui;
     
-    
-     //atributos 
-    //CONTRUCTORES 
+    //CONTRUCTORES - POLIMORFISMO
      public Persona(String nombre, int edad, int cui) {
         this.nombre = nombre;
         this.edad = edad;
