@@ -1,4 +1,4 @@
-#PRIMER TALLER
+# PRIMER TALLER
 
 En este taller se llevo a cabo la realizacion de un ejercicio, utilizando condicionales, bucles y funciones
 
